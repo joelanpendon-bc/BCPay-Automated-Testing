@@ -1,0 +1,25 @@
+{
+  "name": "bcpay_acceptance_testautomation_bdd_v1",
+  "version": "1.0.0",
+  "description": "BCPay Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Joelan",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.17.2",
+    "esbuild": "^0.18.13",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1"
+  }
+}
